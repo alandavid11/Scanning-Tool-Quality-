@@ -64,14 +64,11 @@ namespace Scanning_Tool__Quality_
             using (SqlConnection sqlCon = new SqlConnection(connectionString))
             {
                 sqlCon.Open();
-                SqlCommand cmd2 = new SqlCommand("SELECT COUNT(*) FROM GM_12LRecParts WHERE RecoveryDate >= '" + DateTime.Now.ToString("yyyy-MM-dd") + " " + Globals.primerHoraRev + "' and RecoveryDate <= '" + DateTime.Now.ToString("yyyy-MM-dd") + " " + Globals.segundaHoraRev + "' AND Linea = 'Linea 1'", sqlCon);
+                SqlCommand cmd2 = new SqlCommand("SELECT COUNT(*) FROM GM_12LRecParts WHERE RecoveryDate >= '" + DateTime.Now.ToString("yyyy-MM-dd") + " " + Globals.primerHoraRev + "' and RecoveryDate <= '" + DateTime.Now.ToString("yyyy-MM-dd") + " " + Globals.segundaHoraRev + "'", sqlCon);
                 Int32 count = (Int32)cmd2.ExecuteScalar();
                 string NumReg = count.ToString();
-                SqlCommand cmd3 = new SqlCommand("SELECT COUNT(*) FROM GM_12LRecParts WHERE RecoveryDate >= '" + DateTime.Now.ToString("yyyy-MM-dd") + " " + Globals.primerHoraRev + "' and RecoveryDate <= '" + DateTime.Now.ToString("yyyy-MM-dd") + " " + Globals.segundaHoraRev + "' AND Linea = 'Linea 2'", sqlCon);
-                Int32 count2 = (Int32)cmd3.ExecuteScalar();
-                string NumReg2 = count2.ToString();
                 label10.Text = NumReg;
-                label21.Text = NumReg2;
+    
 
                 sqlCon.Close();
             }
@@ -212,14 +209,10 @@ namespace Scanning_Tool__Quality_
                     cmd.ExecuteNonQuery();
                     SqlCommand sqlDa = new SqlCommand("DELETE FROM GM_12L WHERE CompressorWheel = '" + textBox4.Text + "' ", sqlCon);
                     sqlDa.ExecuteNonQuery();
-                    SqlCommand cmd2 = new SqlCommand("SELECT COUNT(*) FROM GM_12LRecParts WHERE RecoveryDate >= '" + DateTime.Now.ToString("yyyy-MM-dd") + " " + Globals.primerHoraRev + "' AND RecoveryDate <= '" + DateTime.Now.ToString("yyyy-MM-dd") + " " + Globals.segundaHoraRev + "' AND Linea = 'Linea 1'", sqlCon);
+                    SqlCommand cmd2 = new SqlCommand("SELECT COUNT(*) FROM GM_12LRecParts WHERE RecoveryDate >= '" + DateTime.Now.ToString("yyyy-MM-dd") + " " + Globals.primerHoraRev + "' AND RecoveryDate <= '" + DateTime.Now.ToString("yyyy-MM-dd") + " " + Globals.segundaHoraRev + "' ", sqlCon);
                     Int32 count = (Int32)cmd2.ExecuteScalar();
                     string NumReg = count.ToString();
-                    SqlCommand cmd3 = new SqlCommand("SELECT COUNT(*) FROM GM_12LRecParts WHERE RecoveryDate >= '" + DateTime.Now.ToString("yyyy-MM-dd") + " " + Globals.primerHoraRev + "' AND RecoveryDate <= '" + DateTime.Now.ToString("yyyy-MM-dd") + " " + Globals.segundaHoraRev + "' AND Linea = 'Linea 2'", sqlCon);
-                    Int32 count2 = (Int32)cmd3.ExecuteScalar();
-                    string NumReg2 = count2.ToString();
                     label10.Text = NumReg;
-                    label21.Text = NumReg2;
                 }
 
                 textBox1.Text = "";

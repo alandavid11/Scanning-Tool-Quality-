@@ -52,9 +52,6 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
@@ -233,24 +230,6 @@
             this.label17.ForeColor = System.Drawing.Color.White;
             this.label17.Name = "label17";
             // 
-            // label19
-            // 
-            resources.ApplyResources(this.label19, "label19");
-            this.label19.ForeColor = System.Drawing.Color.White;
-            this.label19.Name = "label19";
-            // 
-            // label20
-            // 
-            resources.ApplyResources(this.label20, "label20");
-            this.label20.ForeColor = System.Drawing.Color.White;
-            this.label20.Name = "label20";
-            // 
-            // label21
-            // 
-            resources.ApplyResources(this.label21, "label21");
-            this.label21.ForeColor = System.Drawing.Color.White;
-            this.label21.Name = "label21";
-            // 
             // pictureBox12
             // 
             resources.ApplyResources(this.pictureBox12, "pictureBox12");
@@ -336,8 +315,6 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(108)))));
             resources.ApplyResources(this, "$this");
             this.Controls.Add(this.label17);
-            this.Controls.Add(this.label20);
-            this.Controls.Add(this.label19);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label14);
@@ -345,7 +322,6 @@
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.pictureBox12);
-            this.Controls.Add(this.label21);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -431,9 +407,6 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label21;
         private System.Windows.Forms.TextBox textBox5;
     }
 }
