@@ -1,0 +1,18 @@
+C:\Users\AGloria\source\repos\Scanning Tool (Quality)\obj\Debug\Scanning Tool (Quality).csproj.AssemblyReference.cache
+C:\Users\AGloria\source\repos\Scanning Tool (Quality)\obj\Debug\Scanning Tool (Quality).csproj.SuggestedBindingRedirects.cache
+C:\Users\AGloria\source\repos\Scanning Tool (Quality)\obj\Debug\Scanning_Tool__Quality_.Form1.resources
+C:\Users\AGloria\source\repos\Scanning Tool (Quality)\obj\Debug\Scanning_Tool__Quality_.Form1.es-MX.resources
+C:\Users\AGloria\source\repos\Scanning Tool (Quality)\obj\Debug\Scanning Tool (Quality).csproj.GenerateResource.cache
+C:\Users\AGloria\source\repos\Scanning Tool (Quality)\bin\Debug\Scanning Tool.exe.config
+C:\Users\AGloria\source\repos\Scanning Tool (Quality)\bin\Debug\Scanning Tool.exe.manifest
+C:\Users\AGloria\source\repos\Scanning Tool (Quality)\bin\Debug\Scanning Tool.application
+C:\Users\AGloria\source\repos\Scanning Tool (Quality)\bin\Debug\Scanning Tool.exe
+C:\Users\AGloria\source\repos\Scanning Tool (Quality)\bin\Debug\Scanning Tool.pdb
+C:\Users\AGloria\source\repos\Scanning Tool (Quality)\bin\Debug\es-MX\Scanning Tool.resources.dll
+C:\Users\AGloria\source\repos\Scanning Tool (Quality)\obj\Debug\Scanning_Tool__Quality_.Properties.Resources.resources
+C:\Users\AGloria\source\repos\Scanning Tool (Quality)\obj\Debug\Scanning Tool (Quality).csproj.CoreCompileInputs.cache
+C:\Users\AGloria\source\repos\Scanning Tool (Quality)\obj\Debug\es-MX\Scanning Tool.resources.dll
+C:\Users\AGloria\source\repos\Scanning Tool (Quality)\obj\Debug\Scanning Tool.exe.manifest
+C:\Users\AGloria\source\repos\Scanning Tool (Quality)\obj\Debug\Scanning Tool.application
+C:\Users\AGloria\source\repos\Scanning Tool (Quality)\obj\Debug\Scanning Tool.exe
+C:\Users\AGloria\source\repos\Scanning Tool (Quality)\obj\Debug\Scanning Tool.pdb
