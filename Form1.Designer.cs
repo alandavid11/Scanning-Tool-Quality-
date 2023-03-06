@@ -65,6 +65,9 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.label18 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -136,6 +139,7 @@
             resources.ApplyResources(this.textBox3, "textBox3");
             this.textBox3.Name = "textBox3";
             this.textBox3.TabStop = false;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             this.textBox3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox3_KeyDown);
             // 
             // label4
@@ -309,11 +313,37 @@
             this.textBox5.TabStop = false;
             this.textBox5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox4_KeyDown);
             // 
+            // radioButton1
+            // 
+            resources.ApplyResources(this.radioButton1, "radioButton1");
+            this.radioButton1.ForeColor = System.Drawing.SystemColors.Window;
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.TabStop = true;
+            this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            // 
+            // radioButton2
+            // 
+            resources.ApplyResources(this.radioButton2, "radioButton2");
+            this.radioButton2.ForeColor = System.Drawing.SystemColors.Window;
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.TabStop = true;
+            this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+            // 
+            // label18
+            // 
+            resources.ApplyResources(this.label18, "label18");
+            this.label18.ForeColor = System.Drawing.Color.White;
+            this.label18.Name = "label18";
+            // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(56)))), ((int)(((byte)(108)))));
             resources.ApplyResources(this, "$this");
+            this.Controls.Add(this.radioButton2);
+            this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label15);
@@ -348,6 +378,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label18);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
@@ -408,6 +439,9 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.Label label18;
     }
 }
 
